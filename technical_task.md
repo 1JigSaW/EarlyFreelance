@@ -47,6 +47,7 @@
 [Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=6%3A2)
 ##### 2. Вход
 Данная страница содержит форму для входа пользователя.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=16%3A43)
 ##### 3. Регистрация
 Данная страница содержит форму для регистрации пользователя.
 ##### 4. Отдельная страница пользователя
