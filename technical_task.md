@@ -44,7 +44,7 @@
 ### Список страниц сайта
 ##### 1. Главная
 Данная страница содержит вывод всех текущих заказов.
-[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=6%3A2)
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=1%3A4)
 ##### 2. Вход
 Данная страница содержит форму для входа пользователя.
 [Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=105%3A33)
