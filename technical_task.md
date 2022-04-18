@@ -47,12 +47,16 @@
 [Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=6%3A2)
 ##### 2. Вход
 Данная страница содержит форму для входа пользователя.
-[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=16%3A43)
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=105%3A33)
 ##### 3. Регистрация
 Данная страница содержит форму для регистрации пользователя.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=103%3A11)
 ##### 4. Отдельная страница пользователя
 Данная страница содержит страницу отдельного пользователя с полным описанием себя и своих навыков + отзывы.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=105%3A55)
 ##### 5. Отдельная страница заказа
 Данная страница содержит страницу отдельного заказа с заказчиком и количеством откликов + возможность отклика.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=16%3A43)
 ##### 6. Текущие заказы
 Данная страница содержит заказы или задачи на данный момент со ссылками на исполнителя или клиента.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=6%3A2)
