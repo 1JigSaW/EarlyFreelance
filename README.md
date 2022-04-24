@@ -61,5 +61,8 @@
 Данная страница содержит заказы или задачи на данный момент со ссылками на исполнителя или клиента.
 [Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=6%3A2)
 ##### 7. Мои заказы
-Странциа с заказами активного пользователя.
+Страница с заказами активного пользователя.
 [Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=124%3A41)
+##### 8. Мои размещения
+Странциа с размещениями активного пользователя.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=125%3A124)
