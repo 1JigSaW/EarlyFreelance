@@ -66,3 +66,9 @@
 ##### 8. Мои размещения
 Странциа с размещениями активного пользователя.
 [Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=125%3A124)
+##### 9. Чат
+Странциа для общения пользователей.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=125%3A124)
+##### 10. Отклик
+Странциа для общения пользователей.
+[Link](https://www.figma.com/file/ovctF4LmxKGQeQ8Rp4IC6a/Untitled?node-id=128%3A218)
