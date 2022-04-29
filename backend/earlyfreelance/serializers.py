@@ -5,4 +5,4 @@ class OrderSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Order
 		fields = ('id', 'title', 'description', 'price', 'date_start', 
-			'date_finish', 'created_at', 'attachment')
+			'date_finish', 'created_at', 'attachment', 'completed')

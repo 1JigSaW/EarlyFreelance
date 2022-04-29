@@ -8,6 +8,7 @@ class Order(models.Model):
 	date_finish = models.DateField()
 	created_at = models.DateTimeField(auto_now_add=True)
 	attachment = models.FileField()
+	completed = models.BooleanField(default=False)
 
 	def __str__(self):
 		return self.title
