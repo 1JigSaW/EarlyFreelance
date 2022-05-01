@@ -77,18 +77,10 @@ class App extends Component {
         item => item.completed === viewCompleted
       );
       return newItems.map(item => (
-        <li 
-          key={item.id}
-          className="list-group-item d-flex justify-content-between align-items-center"
-        >
-          <span 
-            className={`todo-title mr-2 ${
-              this.state.viewCompleted ? "completed-todo" : ""
-            }`}
-            title={item.description}
-            >
-              {item.title}
-            </span>
+        <li>
+          <span><p>{item.title}</p></span>
+          <span><p>{item.price}</p></span>
+          <span><p>{item.date_finish}</p></span>
         </li>
       ));
     };
