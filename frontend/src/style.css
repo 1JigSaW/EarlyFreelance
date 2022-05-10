@@ -1,0 +1,22 @@
+nav {
+  background-color: #64FFDA;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.content {
+  background-color: #64FFDA;
+  border: 10px;
+  border: 0;
+}
+
+.search_input {
+  width: 100%;
+}
+
+.s_button {
+  background-color: #ffffff;
+  border: 0;
+}
