@@ -20,3 +20,26 @@ nav {
   background-color: #ffffff;
   border: 0;
 }
+
+.subsubject {
+  background-color: #000000;
+}
+
+.subdttm {
+  background-color: #8BE0F2;
+  width: auto;
+}
+
+.my_rounded {
+  border-radius: 30px!important;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.additional {
+    display: block;
+    align-items: bottom;
+}
