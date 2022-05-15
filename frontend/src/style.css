@@ -43,3 +43,116 @@ nav {
     display: block;
     align-items: bottom;
 }
+
+.txt_br {
+  /*white-space: pre-line;*/
+  /*overflow-wrap: break-word;*/
+}
+@media only screen and (max-width: 575px) {
+  .my_font {
+    font-size: 1rem;
+  }
+  .sub_font {
+    font-size: 0.7rem;
+  }
+  .subj_font {
+    font-size: 0.7rem;
+  }
+  .card_order {
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+  }
+  .h_font {
+    font-size: 1.3rem;
+  }
+  .centr {
+    text-align: center;
+    display: block;
+    margin-bottom: 1px;
+    margin-left: 0rem;
+  }
+  .ml-null {
+    margin-left: 0px!important;
+  }
+}
+@media only screen and (min-width: 575px) {
+  .my_font {
+    font-size: 1rem;
+  }
+  .sub_font {
+    font-size: 1rem;
+  }
+  .h_font {
+    font-size: 1.3rem;
+  }
+  .subj_font {
+    font-size: 1rem;
+  }
+  .card_order {
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+  }
+  .centr {
+    text-align: center;
+    display: block;
+    margin-bottom: 1px;
+  }
+  .ml-null {
+    margin-left: 0px!important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .my_font {
+    font-size: 1rem;
+  }
+  .sub_font {
+    font-size: 0.7rem;
+  }
+  .h_font {
+    font-size: 1rem;
+  }
+  .subj_font {
+    font-size: 0.7rem;
+  }
+  .card_order {
+    text-align: left;
+    display: inline-flex;
+    margin-left: 0px;
+  }
+  .centr {
+    display: inline-flex;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .my_font {
+    font-size: 1.5rem;
+  }
+  .sub_font {
+    font-size: 1rem;
+  }
+  .h_font {
+    font-size: 1.3rem;
+  }
+  .subj_font {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .my_font {
+    font-size: 1.5rem;
+  }
+  .sub_font {
+    font-size: 1rem;
+  }
+  .h_font {
+    font-size: 1.3rem;
+  }
+  .subj_font {
+    font-size: 1rem;
+  }
+}
+/*.my_font {
+  font-size: 2vw;
+}*/
