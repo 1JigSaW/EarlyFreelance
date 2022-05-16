@@ -43,11 +43,15 @@ nav {
     display: block;
     align-items: bottom;
 }
-
-.txt_br {
-  /*white-space: pre-line;*/
-  /*overflow-wrap: break-word;*/
+.nav-link.active {
+  background-color: #000000!important;
 }
+
+.nav-link {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 @media only screen and (max-width: 575px) {
   .my_font {
     font-size: 1rem;
@@ -73,7 +77,7 @@ nav {
     margin-left: 0rem;
   }
   .ml-null {
-    margin-left: 0px!important;
+    margin-left: 0rem!important;
   }
 }
 @media only screen and (min-width: 575px) {
@@ -100,7 +104,7 @@ nav {
     margin-bottom: 1px;
   }
   .ml-null {
-    margin-left: 0px!important;
+    margin-left: 0rem!important;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -113,6 +117,9 @@ nav {
   .h_font {
     font-size: 1rem;
   }
+  .h1_font {
+    font-size: 2.2rem;
+  }
   .subj_font {
     font-size: 0.7rem;
   }
@@ -123,6 +130,9 @@ nav {
   }
   .centr {
     display: inline-flex;
+  }
+  .to_right {
+    text-align: right;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -138,6 +148,9 @@ nav {
   .subj_font {
     font-size: 1rem;
   }
+  .to_right {
+    text-align: right;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .my_font {
@@ -151,6 +164,9 @@ nav {
   }
   .subj_font {
     font-size: 1rem;
+  }
+  .to_right {
+    text-align: right;
   }
 }
 /*.my_font {

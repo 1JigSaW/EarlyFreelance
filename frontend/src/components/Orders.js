@@ -53,45 +53,45 @@ const Orders = () => {
                   </ul>*/}
                 <div className="m-3">
                   <div class="row">
-                    <div class="col-9">
-                      <div class="card border border-dark my_rounded">
+                    <div class="col-md-9 col-12 order-2 order-md-1">
+                      <div class="card border border-dark my_rounded card_order">
                         <div class="row">
-                          <div class="col-9">
-                            <div class="card-body pb-2">
-                              <h5 class="card-title mb-3">Заголовок</h5>
-                              <a href="#" class="card-link subsubject p-1 pr-3 pl-3 ml-0 mr-1 my_rounded text-white">Математика</a>
-                              <a href="#" class="card-link subsubject p-1 pr-3 pl-3 ml-0 mr-1 my_rounded text-white">Линейная алгебра</a>
+                          <div class="col-sm-12 col-md-8 col-lg-9 col-12">
+                            <div class="card-body pb-2 txt_br">
+                              <h5 class="card-title mb-3 h_font ">Заголовок</h5>
+                              <a href="#" class="card-link subsubject p-1 pr-3 pl-3 ml-0 mr-1 my_rounded text-white subj_font txt_br centr text-break">Математика</a>
+                              <a href="#" class="card-link subsubject p-1 pr-3 pl-3 ml-0 mr-1 my_rounded text-white subj_font txt_br centr text-break">Линейная&nbsp;алгебра</a>
                             </div>
                           </div>
-                          <div class="col-3 vcenter">
-                            <span class="subdttm p-1 pr-3 pl-3 ml-4 my_rounded border border-dark">2000 руб.</span>
+                          <div class="col-sm-0 col-md-4 col-lg-3 col-0 vcenter centr ">
+                            <span class="ml-null subdttm p-1 pr-3 pl-3 mx-4 my_rounded border border-dark sub_font">2000 руб.</span>
                           </div>
-                          <div class="col-9">
-                            <div class="card-body pt-0 pb-1">
+                          <div class="col-sm-12 col-md-8 col-lg-9 col-12">
+                            <div class="card-body pt-0 pb-2">
                               <div class="my_rounded text-black mt-1">
-                                <span class="subdttm p-1 pr-3 pl-3 my_rounded border border-dark">16.03-12:00</span>
+                                <span class="ml-null subdttm p-1 pr-3 pl-3 my_rounded border border-dark sub_font">16.03-12:00</span>
                               </div>
                             </div>
                           </div>
-                          <div class="col-3 d-flex">
-                            <span class="ml-5">1<img src="{image}" className="circle" /></span>
-                            <span class="ml-2">1<img src="{image}" className="circle" /></span>
+                          <div class="col-sm-0 col-md-4 col-lg-3 col-0 sub_font to_right">
+                            <span class="p-1">1<img src="{image}" className="circle" /></span>
+                            <span class="p-1">1<img src="{image}" className="circle" /></span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-0 mt-2 order-1 order-md-2">
                       <div class="accordion" id="accordionExample">
                         <div class="accordion-item ">
                           <h4 class="accordion-header" id="headingOne">
-                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100 my_font" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                               Направление
                             </button>
                           </h4>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                               <ul class="list-group" >
-                                <li class="content list-group-item py-0 mx-3">
+                                <li class="content list-group-item py-0 mx-3 sub_font">
                                   <input class="form-check-input" type="checkbox" value="" aria-label="..." />
                                   First checkbox
                                 </li>
@@ -101,8 +101,8 @@ const Orders = () => {
                         </div>
                         <div class="accordion-item">
                           <h4 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Предемет
+                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100 my_font" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Предмет
                             </button>
                           </h4>
                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -118,7 +118,7 @@ const Orders = () => {
                         </div>
                         <div class="accordion-item">
                           <h4 class="accordion-header" id="headingThree">
-                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100 my_font" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                               Сроки
                             </button>
                           </h4>
@@ -130,7 +130,7 @@ const Orders = () => {
                         </div>
                         <div class="accordion-item">
                           <h4 class="accordion-header" id="headingFour">
-                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button class="accordion-button my_rounded s_button border border-dark p-2 w-100 my_font" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                               Цена
                             </button>
                           </h4>

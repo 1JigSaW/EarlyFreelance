@@ -63,6 +63,9 @@ class App extends Component {
             <nav className="navbar navbar-expand-lg navbar-light ">
               <div className="container">
                 <a className="navbar-brand" href="#">ЛОГО</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav mb-2 mb-lg-0 ml-auto">
                     <li className="nav-item dropdown">
@@ -85,8 +88,9 @@ class App extends Component {
 
           <main>
             <div className="container">
-              <div className="content mt-3 mb-3 border border-dark">
+              <div className="content mt-3 mb-1 border border-dark">
                 <div className="m-3">
+                  <h1 className="text-white h1_font">Мои заказы</h1>
                   <div class="input-group mb-3">
                     <input type="text" class="form-control border border-dark" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     <div class="input-group-append s_button">
@@ -97,9 +101,22 @@ class App extends Component {
                   {/*<ul className="list-group list-group-flush">
                     {this.renderItems()}
                   </ul>*/}
+                <div className="ml-3">
+                  <ul class="nav nav-pills subj_font mt-2">
+                    <li class="nav-item ">
+                      <a class="nav-link active my_rounded mr-2 mt-1 py-0 border border-dark" href="#">Все</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link my_rounded mr-2 mt-1 py-0 border border-dark" href="#">Активные</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link my_rounded mt-1 py-0 border border-dark" href="#">Выполненные</a>
+                    </li>
+                  </ul>
+                </div>
                 <div className="m-3">
                   <div class="row">
-                    <div class="col-md-9 col-12">
+                    <div class="col-md-9 col-12 order-2 order-md-1">
                       <div class="card border border-dark my_rounded card_order">
                         <div class="row">
                           <div class="col-sm-12 col-md-8 col-lg-9 col-12">
@@ -119,14 +136,14 @@ class App extends Component {
                               </div>
                             </div>
                           </div>
-                          <div class="card_order col-sm-0 col-md-4 col-lg-3 col-0 centr d-flex card_order sub_font">
-                            <span class="ml-2 p-1">1<img src="{image}" className="circle" /></span>
-                            <span class="ml-2 p-1">1<img src="{image}" className="circle" /></span>
+                          <div class="col-sm-0 col-md-4 col-lg-3 col-0 sub_font to_right">
+                            <span class="p-1">1<img src="{image}" className="circle" /></span>
+                            <span class="p-1">1<img src="{image}" className="circle" /></span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-3 col-0 mt-2">
+                    <div class="col-md-3 col-0 mt-2 order-1 order-md-2">
                       <div class="accordion" id="accordionExample">
                         <div class="accordion-item ">
                           <h4 class="accordion-header" id="headingOne">
