@@ -52,6 +52,28 @@ nav {
   color: #000000;
 }
 
+.width_button {
+  width: 96%;
+}
+
+.bg_button {
+  background-color: #E563F0!important;
+  color: #000000;
+}
+
+.square {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  background: #ffffff;
+  overflow: hidden; 
+  border-radius: 50px;
+}
+
+.my_color {
+  color: #E563F0
+}
+
 @media only screen and (max-width: 575px) {
   .my_font {
     font-size: 1rem;

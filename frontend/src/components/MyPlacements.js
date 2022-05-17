@@ -8,15 +8,18 @@ import React, { useContext } from "react";
 // import { themeContext } from "../../Context";
 // import { motion } from "framer-motion";
 // import {Link} from 'react-scroll'
-const Orders = () => {
+const MyPlacements = () => {
 
   // transition
   return (
-      <div>
+          <div>
           <header>
             <nav className="navbar navbar-expand-lg navbar-light ">
               <div className="container">
                 <a className="navbar-brand" href="#">ЛОГО</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav mb-2 mb-lg-0 ml-auto">
                     <li className="nav-item dropdown">
@@ -39,8 +42,9 @@ const Orders = () => {
 
           <main>
             <div className="container">
-              <div className="content mt-3 mb-3 border border-dark">
+              <div className="content mt-3 mb-1 border border-dark">
                 <div className="m-3">
+                  <h1 className="text-white h1_font">Мои размещения</h1>
                   <div class="input-group mb-3">
                     <input type="text" class="form-control border border-dark" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     <div class="input-group-append s_button">
@@ -51,6 +55,16 @@ const Orders = () => {
                   {/*<ul className="list-group list-group-flush">
                     {this.renderItems()}
                   </ul>*/}
+                <div className="ml-3">
+                  <ul class="nav nav-pills subj_font mt-2">
+                    <li class="nav-item">
+                      <a class="nav-link my_rounded mr-2 mt-1 py-0 border border-dark active" href="#">Активные</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link my_rounded mt-1 py-0 border border-dark" href="#">Выполненные</a>
+                    </li>
+                  </ul>
+                </div>
                 <div className="m-3">
                   <div class="row">
                     <div class="col-md-9 col-12 order-2 order-md-1">
@@ -77,6 +91,9 @@ const Orders = () => {
                             <span class="p-1">1<img src="{image}" className="circle" /></span>
                             <span class="p-1">1<img src="{image}" className="circle" /></span>
                           </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                          <button class="bg_button btn width_button my_rounded mx-3 py-0 my-1 bg_button border border-white" type="button">Закрыть</button>
                         </div>
                       </div>
                     </div>
@@ -151,4 +168,4 @@ const Orders = () => {
       );
     };
 
-export default Orders;
+export default MyPlacements;
