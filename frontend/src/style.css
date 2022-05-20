@@ -73,6 +73,9 @@ nav {
 .my_color {
   color: #E563F0
 }
+.photo_cl {
+  width: 12%!important;
+}
 
 @media only screen and (max-width: 575px) {
   .my_font {
@@ -128,6 +131,11 @@ nav {
   .ml-null {
     margin-left: 0rem!important;
   }
+  .photo_edit {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%!important;
+  }
 }
 @media only screen and (min-width: 768px) {
   .my_font {
@@ -172,6 +180,12 @@ nav {
   }
   .to_right {
     text-align: right;
+  }
+  .photo_edit {
+    margin-right: 10px;   
+  }
+  .photo_cl {
+    max-width: 12%!important;
   }
 }
 @media only screen and (min-width: 1200px) {

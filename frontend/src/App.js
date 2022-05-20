@@ -95,20 +95,20 @@ class App extends Component {
                 <div className="m-3">
                   <div className="card border border-dark my_rounded">
                     <div className="row">
-                      <div className="col-1">
-                        <div className="square border border-dark my-1 mx-2">
-                          <img src="" class="mx-auto d-block" alt="" />
+                      <div className="col-xl-1 col-lg-2 col-md-2">
+                        <div className="my-1 mx-2">
+                          <img src="https://assets.transloadit.com/assets/demos/outputs/deduped-419d30b6366f40918446c71c0a3d82cf.jpg__preview.jpg" class="rounded-circle mx-auto d-block" alt="" />
                         </div>
                       </div>
-                      <div className="col-9">
+                      <div className="col-xl-9 col-lg-8 col-md-7">
                         <div className="pt-2 pl-2">
                           Андрей Лонов
                         </div>
-                        <div className="border border-dark my_rounded py-2 px-2 my-1">
+                        <div className="border border-dark my_rounded py-2 px-2 my-1 ">
                           Отклик на <small class="my_color">Решить задачу на число Фибоначчи</small>
                         </div>
                       </div>
-                      <div className="col-2 w-100 h-100">
+                      <div className="col-xl-2 col-lg-2 col-md-3 w-100 h-100 pl-0 photo_edit">
                         <div class="d-grid gap-2 h-100 mr-1 my-1">
                           <button class="btn bg_button my_rounded w-100 h-100 py-4 mr-1" type="submit">Ответить</button>
                         </div>
