@@ -109,9 +109,41 @@ class App extends Component {
                           </div>
                         </div>
                           <h5 class="card-title mt-1 ml-5">Навыки:</h5>
-                          <div className="card border border-dark my_rounded">
-                            <a href="#" class="card-link">Математика</a>
+                          <div className="row ml-3">
+                            <div className="col-3 px-0">
+                              <div className="card border border-dark my_rounded text-center mb-2 ml-3 bg_link">
+                                <a href="#" class="card-link">Python</a>
+                              </div>
+                            </div>
+                            <div className="col-3 px-0">
+                              <div className="card border border-dark my_rounded text-center mb-2 ml-3 bg_link">
+                                <a href="#" class="card-link">C++</a>
+                              </div>
+                            </div>
+                            <div className="col-3 px-0">
+                              <div className="card border border-dark my_rounded text-center mb-2 ml-3 bg_link">
+                                <a href="#" class="card-link">Data Science</a>
+                              </div>
+                            </div>
+                            <div className="col-3 px-0 ">
+                              <div className="card border border-dark my_rounded text-center mb-2 ml-3 mr-0 bg_link">
+                                <a href="#" class="card-link">Python</a>
+                              </div>
+                            </div>
                           </div>
+                      </div>
+                      <div className="col-4">
+                        <div class="row">
+                          <div class="col-md-4">
+                            One of three columns
+                          </div>
+                          <div class="col-md-3 offset-md-3">
+                            One of three columns
+                          </div>
+                          <div class="col-md-4">
+                            One of three columns
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

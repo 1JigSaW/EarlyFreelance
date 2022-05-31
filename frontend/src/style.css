@@ -61,6 +61,11 @@ nav {
   color: #000000;
 }
 
+.bg_link {
+  background-color: #8BE0F2!important;
+  color: #ffffff;
+}
+
 .square {
   width: 75px;
   height: 75px;
