@@ -92,7 +92,7 @@ class App extends Component {
                 <div className="m-3">
                   <div className="card border border-dark my_rounded">
                     <div className="row">
-                      <div className="col-7 col-md-12 col-lg-7 col-xl-8">
+                      <div className="col-xs-12 col-md-7 col-lg-7 col-xl-8">
                         <div className="row">
                           <div className="col-4 col-md-4 col-lg-3 col-xl-2">
                             <div className="my-1 mx-3 float-left">
@@ -110,48 +110,48 @@ class App extends Component {
                         </div>
                           <h5 class="card-title mt-1 ml-5">Навыки:</h5>
                           <div className="row mx-3">
-                            <div className="col-6 col-md-3 col-xl-3 px-0">
+                            <div className="col-xs-4 col-md-6 col-xl-3 px-0 ">
                               <div className="card border border-dark my_rounded text-center mb-2 ml-3 bg_link">
                                 <a href="#" class="card-link">Python</a>
                               </div>
                             </div>
-                            <div className="col-6 col-md-3 col-xl-3 px-0">
+                            <div className="col-xs-4 col-md-6 col-xl-3 px-0">
                               <div className="card border border-dark my_rounded text-center mb-2 ml-3 bg_link">
                                 <a href="#" class="card-link">C++</a>
                               </div>
                             </div>
-                            <div className="col-6 col-md-3 col-xl-3 px-0">
+                            <div className="col-xs-4 col-md-6 col-xl-3 px-0">
                               <div className="card border border-dark my_rounded text-center mb-2 ml-3 bg_link">
                                 <a href="#" class="card-link">Data Science</a>
                               </div>
                             </div>
-                            <div className="col-6 col-md-3 col-xl-3 px-0 ">
+                            <div className="col-xs-4 col-md-6 col-xl-3 px-0 ">
                               <div className="card border border-dark my_rounded text-center mb-2 ml-3 mr-0 bg_link">
                                 <a href="#" class="card-link">Python</a>
                               </div>
                             </div>
                           </div>
                       </div>
-                      <div className="col-2 col-md-12 col-xl-2 my-3 pr-0 text-center mx-4">
+                      <div className="col-xs-12 col-md-2 col-xl-2 my-3 pr-0 mlr2">
                         <div class="row">
-                          <div class="col-12 col-md-11 col-xl-12">
+                          <div class="col-12 col-xl-12">
                             <div className="bg_button my_rounded">
-                              <p class="h6 mx-2 px-2 pb-0 mb-0 pt-2 text-center my_font2">Выполнено:</p>
+                              <p class="h6 mx-2 px-2 pb-0 mb-0 pt-2 text-center ">Выполнено:</p>
                               <h2 class="display-4 px-2 pt-0 mt-0 text-center">20</h2>
                             </div>
                           </div> 
-                          <div class="col-12 col-md-11 col-xl-12">
-                            <div className="bg_link my_rounded">
-                              <p class="h6 mx-2 px-2 pb-0 mb-0 pt-2 text-center my_font2">Размещено:</p>
+                          <div class="col-12 col-xl-12">
+                            <div className="bg_link my_rounded ">
+                              <p class="h6 mx-2 px-2 pb-0 mb-0 pt-2 text-center">Размещено:</p>
                               <h2 class="display-4 px-2 pt-0 mt-0 text-center">3</h2>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="col-2 col-md-12 col-lg-3 col-xl-2 vcenter mx-0">
+                      <div className="col-xs-12 col-md-3 col-lg-3 col-xl-2 vcenter mx-0 centr">
                         <div class="row">
-                          <div class="col-12 col-xl-12">
-                            <div className="bg_yellow my_rounded px-2">
+                          <div class="col-12 col-xl-12 ">
+                            <div className="bg_yellow my_rounded px-2 mlr2">
                               <p class="h6 mx-2 px-2 pb-0 mb-0 pt-2 text-center">Оценка:</p>
                               <h2 class="display-4 px-2 pt-0 mt-0 text-center">5.0</h2>
                             </div>
