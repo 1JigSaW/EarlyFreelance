@@ -61,9 +61,14 @@ nav {
   color: #000000;
 }
 
+.bg_yellow {
+  background-color: #EFFE3F!important;
+  color: #000000;
+}
+
 .bg_link {
   background-color: #8BE0F2!important;
-  color: #ffffff;
+  color: #000000;
 }
 
 .square {
@@ -118,6 +123,9 @@ nav {
   .my_font {
     font-size: 1rem;
   }
+  .my_font2 {
+    font-size: 0.7rem!important;
+  }
   .sub_font {
     font-size: 1rem;
   }
@@ -154,6 +162,10 @@ nav {
   .my_font {
     font-size: 1rem;
   }
+
+  .my_font2 {
+    font-size: 0.2rem;
+  }
   .sub_font {
     font-size: 0.7rem;
   }
@@ -181,6 +193,9 @@ nav {
 @media only screen and (min-width: 992px) {
   .my_font {
     font-size: 1.5rem;
+  }
+  .my_font2 {
+    font-size: 0.2rem;
   }
   .sub_font {
     font-size: 1rem;
