@@ -2,6 +2,13 @@ nav {
   background-color: #64FFDA;
 }
 
+.landing {
+  background-image: url("1.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  
+}
+
 .circle {
   border-radius: 50%;
 }
@@ -91,6 +98,13 @@ nav {
   min-height: 25vh;
 }
 
+.dp_width {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
 @media only screen and (max-width: 575px) {
   .my_font {
     font-size: 1rem;
