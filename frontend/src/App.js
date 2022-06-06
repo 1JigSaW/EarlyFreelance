@@ -63,53 +63,63 @@ class App extends Component {
             <nav className="navbar navbar-expand-lg navbar-light ">
               <div className="container">
                 <a className="navbar-brand" href="#">ЛОГО</a>
-                
+                <div>
+                  <a class="btn bg_button my_rounded border border-dark text-dark mr-2">Вход</a>
+                  <a class="btn bg_button my_rounded border border-dark text-dark">Регистрация</a>
+                </div>
               </div>
             </nav>
           </header>
 
           <main >
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-            
-
-            <h2>ssdfsdfsdf</h2>
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
-
-            <h2>ssdfsdfsdf</h2>
+            <div className="title_block">
+              <h1 className="display-4">Поможем с твоими учебными проектами</h1>
+              <a class="btn bg_button my_rounded border border-dark text-dark">Заказать решение</a>
+            </div>
+            <div className="block2">
+              <h2 className="display-4">Как сделать заказ?</h2>
+            </div>
+            <div>
+              <div className="row ml-4">
+                <div className="col-3">
+                  <div className="mt-5">
+                    <div className="circle bg_button border border-dark">
+                      <h2 className="slogan">Опиши задание, которое ты не можешь решить</h2>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div className="mt-5">
+                    <div className="circle bg_button border border-dark">
+                      <h2 className="slogan">Выложи и ожидай, когда кто-нибудь откликнется на твое задание</h2>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div className="mt-5">
+                    <div className="circle bg_button border border-dark">
+                      <h2 className="slogan">Договорись с фрилансером о цене и других подробностях заказа</h2>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3">
+                  <div className="mt-5">
+                    <div className="circle bg_button border border-dark">
+                      <h2 className="slogan">Ожидай выполнения и оцени фрилансера</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-5">
+              <div className="row">
+                <div className="col-6">
+                  <div className="big_circle">
+                    <h2 className="slogan">Ожидай выполнения и оцени фрилансера</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </main>
         </div>
       )

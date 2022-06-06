@@ -105,6 +105,41 @@ nav {
   margin-top: 25%;
   margin-bottom: 25%;
 }
+
+.title_block {
+  width: 28%;
+  margin-left: 8%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.block2 {
+  margin-top: 12%;
+  text-align: center;
+}
+.circle {
+  text-align: center;
+  height: 20vw;
+  width: 20vw;
+  border: 25%;
+  
+  display: table-cell;
+  vertical-align: middle;
+}
+.slogan {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.big_circle {
+  width: 45vw;
+  height: 45vw;
+  background: #7fee1d;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  position: absolute;
+}
+
 @media only screen and (max-width: 575px) {
   .my_font {
     font-size: 1rem;
