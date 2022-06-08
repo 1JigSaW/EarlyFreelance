@@ -115,7 +115,26 @@ class App extends Component {
               <div className="row">
                 <div className="col-6">
                   <div className="big_circle">
-                    <h2 className="slogan">Ожидай выполнения и оцени фрилансера</h2>
+                    <div className="slogan2">
+                      <h2 className="display-4">Для клиентов:</h2>
+                      <ul class="list_gr1 list-group list-group-flush">
+                        <li class="list-group-item"><h2>Быстрое выполнение заказа</h2></li>
+                        <li class="list-group-item"><h2>Качественное выполнение работы</h2></li>
+                        <li class="list-group-item"><h2>Самостоятельное согласование цены</h2></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <div className="big_circle2 bg_green">
+                    <h2 className="display-4 slogan3">Для фрилансеров:</h2>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><h2>An item</h2></li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                      <li class="list-group-item">A fourth item</li>
+                      <li class="list-group-item">And a fifth one</li>
+                    </ul>
                   </div>
                 </div>
               </div>

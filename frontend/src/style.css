@@ -78,6 +78,10 @@ nav {
   color: #000000;
 }
 
+.bg_green {
+  background-color: #64FFDA!important;
+}
+
 .square {
   width: 75px;
   height: 75px;
@@ -121,7 +125,7 @@ nav {
   text-align: center;
   height: 20vw;
   width: 20vw;
-  border: 25%;
+  border: 10vw;
   
   display: table-cell;
   vertical-align: middle;
@@ -133,11 +137,30 @@ nav {
 .big_circle {
   width: 45vw;
   height: 45vw;
-  background: #7fee1d;
+  background: #B4BEC5;
   -moz-border-radius: 60px;
   -webkit-border-radius: 60px;
   border-radius: 25vw;
-  position: absolute;
+  margin-left: -8vw;
+  padding-top: 10vw;
+}
+.big_circle2 {
+  width: 45vw;
+  height: 45vw;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  margin-left: 9vw;
+  margin-right: 0vw;
+  margin-top: 1vw;
+  padding-top: 10vw;
+}
+.slogan2 {
+  margin-left: 12vw;
+}
+.list-group-item {
+  background-color: transparent!important;
 }
 
 @media only screen and (max-width: 575px) {
