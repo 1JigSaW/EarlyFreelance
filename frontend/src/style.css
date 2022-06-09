@@ -130,10 +130,6 @@ nav {
   display: table-cell;
   vertical-align: middle;
 }
-.slogan {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 .big_circle {
   width: 45vw;
   height: 45vw;
@@ -162,7 +158,25 @@ nav {
 .list-group-item {
   background-color: transparent!important;
 }
-
+.list-group {
+  width: 80%;
+  align-items: flex-start;
+}
+.slogan3 {
+  margin-left: 6vw;
+}
+.mini_img {
+  width: 25px;
+  height: 25px;
+}
+.child_flex {
+  margin-left: auto;
+  order: 2;
+}
+.footer {
+  margin-top: 12vw;
+  height: 10vh;
+}
 @media only screen and (max-width: 575px) {
   .my_font {
     font-size: 1rem;
@@ -193,6 +207,17 @@ nav {
   .mlr2 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+  .slogan {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 0.5rem;
+  }
+  .h2_landing {
+    font-size: 1rem!important;
+  }
+  .li_font {
+    font-size: 0.6rem!important;
   }
 }
 @media only screen and (min-width: 575px) {
@@ -237,6 +262,18 @@ nav {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  .slogan {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 0.8rem;
+  }
+  .h2_landing {
+    font-size: 1.3rem!important;
+  }
+  .li_font {
+    font-size: 0.6rem!important;
+  }
+
 }
 @media only screen and (min-width: 768px) {
   .my_font {
@@ -273,6 +310,17 @@ nav {
     margin-left: 0;
     margin-right: 0;
   }
+  .slogan {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.1rem;
+  }
+  .h2_landing {
+    font-size: 1.6rem!important;
+  }
+  .li_font {
+    font-size: 1rem!important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .my_font {
@@ -299,6 +347,18 @@ nav {
   .photo_cl {
     max-width: 12%!important;
   }
+  .slogan {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+  }
+  .h2_landing {
+    font-size: 2.3rem!important;
+  }
+  .li_font {
+    font-size: 1.4rem!important;
+  }
+
 }
 @media only screen and (min-width: 1200px) {
   .my_font {
@@ -315,6 +375,17 @@ nav {
   }
   .to_right {
     text-align: right;
+  }
+  .slogan {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.7rem;
+  }
+  .h2_landing {
+    font-size: 3rem!important;
+  }
+  .li_font {
+    font-size: 1.8rem!important;
   }
 }
 /*.my_font {
