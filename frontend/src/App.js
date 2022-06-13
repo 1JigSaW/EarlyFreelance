@@ -72,43 +72,42 @@ class App extends Component {
           </header>
 
           <main >
-            <div className="title_block">
+            <div className="">
               <div className="row">
-                <div className="col-sm-12 col-md-6">
-                  <h1 className="display-4">Поможем с твоими учебными проектами</h1>
+                <div className="col-sm-12 col-md-12 col-lg-5 order-sm-2 order-md-1 title_block ">
+                  <h1 className="display-4 main_font ">Поможем с твоими учебными проектами</h1>
                   <a className="btn bg_button my_rounded border border-dark text-dark">Заказать решение</a>
                 </div>
-                <div className="col-sm-12 col-md-6">
-                </div>
+                
               </div>
             </div>
             <div className="block2">
-              <h2 className="display-4">Как сделать заказ?</h2>
+              <h2 className="display-4 main_font">Как сделать заказ?</h2>
             </div>
             <div>
-              <div className="row ml-4">
-                <div className="col-lg-3 col-sm-6">
+              <div className="row mx-4">
+                <div className="col-lg-3 col-sm-3 col-6">
                   <div className="mt-5">
                     <div className="circle bg_button border border-dark">
                       <h2 className="slogan">Опиши задание, которое ты не можешь решить</h2>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6">
+                <div className="col-lg-3 col-sm-3 col-6">
                   <div className="mt-5">
                     <div className="circle bg_button border border-dark">
                       <h2 className="slogan">Выложи и ожидай, когда кто-нибудь откликнется на твое задание</h2>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6">
+                <div className="col-lg-3 col-sm-3 col-6">
                   <div className="mt-5">
                     <div className="circle bg_button border border-dark">
                       <h2 className="slogan">Договорись с фрилансером о цене и других подробностях заказа</h2>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6">
+                <div className="col-lg-3 col-sm-3 col-6">
                   <div className="mt-5">
                     <div className="circle bg_button border border-dark">
                       <h2 className="slogan">Ожидай выполнения и оцени фрилансера</h2>
@@ -117,9 +116,9 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 overflow-hidden">
               <div className="row">
-                <div className="col-sm-12 col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="big_circle">
                     <div className="slogan2">
                       <h2 className="display-4 h2_landing font-weight-bold">Для клиентов:</h2>
@@ -131,7 +130,7 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="big_circle2 bg_green">
                     <h2 className="h2_landing display-4 slogan3 font-weight-bold">Для фрилансеров:</h2>
                     <ul className="li_font list-group list-group-flush ml-5 mt-4 li_font">
@@ -144,10 +143,10 @@ class App extends Component {
               </div>
             </div>
             <div>
-              <h2 className="text-center">Текущие заказы</h2>
+              <h2 className="text-center mt-0">Текущие заказы</h2>
               <div className="row mx-3 mt-4">
-                <div className="col-3">
-                  <div className="border border-dark nav-link">
+                <div className="col-md-3 col-sm-6">
+                  <div className="border border-dark mx-2 my-1 nav-link">
                     <h5 className="h_font my-4">Решить задачу на число Фибоначчи</h5>
                     <div className="d-flex">
                       <div className="child_flex">
@@ -157,8 +156,8 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-3">
-                  <div className="border border-dark ml-4 nav-link">
+                <div className="col-md-3 col-sm-6">
+                  <div className="border border-dark mx-2 my-1 nav-link">
                     <h5 className="h_font my-4">Решить задачу на число Фибоначчи</h5>
                     <div className="d-flex">
                       <div className="child_flex">
@@ -168,8 +167,8 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-3">
-                  <div className="border border-dark ml-4 nav-link">
+                <div className="col-md-3 col-sm-6">
+                  <div className="border border-dark mx-2 my-1 nav-link">
                     <h5 className="h_font my-4">Решить задачу на число Фибоначчи</h5>
                     <div className="d-flex">
                       <div className="child_flex">
@@ -179,8 +178,8 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-3">
-                  <div className="border border-dark ml-4 nav-link">
+                <div className="col-md-3 col-sm-6">
+                  <div className="border border-dark mx-2 my-1 nav-link">
                     <h5 className="h_font my-4">Решить задачу на число Фибоначчи</h5>
                     <div className="d-flex">
                       <div className="child_flex">

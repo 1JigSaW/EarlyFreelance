@@ -10,6 +10,8 @@ nav {
 }
 
 .circle {
+  width: 7vw;
+  height: 5vw;
   border-radius: 50%;
 }
 
@@ -111,8 +113,10 @@ nav {
 }
 
 .title_block {
-  width: 28%;
-  margin-left: 8%;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 30%;
+  
   margin-top: 10%;
   text-align: center;
 }
@@ -120,37 +124,6 @@ nav {
 .block2 {
   margin-top: 12%;
   text-align: center;
-}
-.circle {
-  text-align: center;
-  height: 20vw;
-  width: 20vw;
-  border: 10vw;
-  
-  display: table-cell;
-  vertical-align: middle;
-}
-.big_circle {
-  width: 45vw;
-  height: 45vw;
-  background: #B4BEC5;
-  -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
-  border-radius: 25vw;
-  margin-left: -8vw;
-  padding-top: 10vw;
-}
-.big_circle2 {
-  width: 45vw;
-  height: 45vw;
-  background: #B4BEC5;
-  -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
-  border-radius: 25vw;
-  margin-left: 9vw;
-  margin-right: 0vw;
-  margin-top: 1vw;
-  padding-top: 10vw;
 }
 .slogan2 {
   margin-left: 12vw;
@@ -177,6 +150,9 @@ nav {
   margin-top: 12vw;
   height: 10vh;
 }
+.vh_50 {
+  height: 40vh;
+}
 @media only screen and (max-width: 575px) {
   .my_font {
     font-size: 1rem;
@@ -193,7 +169,7 @@ nav {
     margin-left: 0px;
   }
   .h_font {
-    font-size: 1.3rem;
+    font-size: 1.3rem!important;
   }
   .centr {
     text-align: center;
@@ -211,13 +187,32 @@ nav {
   .slogan {
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .h2_landing {
-    font-size: 1rem!important;
+    font-size: 1.3rem!important;
   }
   .li_font {
-    font-size: 0.6rem!important;
+    font-size: 0.8rem!important;
+  }
+  .main_font {
+    font-size: 2rem!important;
+  }
+  .circle {
+  text-align: center;
+  height: 20vh;
+  width: 20vh;
+  border: 10vh;
+  
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .big_circle {
+    padding:  4vh;
+    background-color: #B4BEC5;
+  }
+  .big_circle2 {
+    padding:  4vh;
   }
 }
 @media only screen and (min-width: 575px) {
@@ -231,7 +226,7 @@ nav {
     font-size: 1rem;
   }
   .h_font {
-    font-size: 1.3rem;
+    font-size: 1.3rem!important;
   }
   .subj_font {
     font-size: 1rem;
@@ -268,12 +263,46 @@ nav {
     font-size: 0.8rem;
   }
   .h2_landing {
-    font-size: 1.3rem!important;
+    font-size: 1.6rem!important;
   }
   .li_font {
-    font-size: 0.6rem!important;
+    font-size: 1rem!important;
   }
-
+  .main_font {
+    font-size: 2rem!important;
+  }
+  .circle {
+  text-align: center;
+  height: 20vw;
+  width: 20vw;
+  border: 10vw;
+  
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .big_circle {
+  margin-left: 6vw;
+  padding-right: 2vw;
+  width: 43vh;
+  height: 43vh;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  padding-top: 10vw;
+  }
+  .big_circle2 {
+  float: right;
+  width: 43vh;
+  height: 43vh;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  margin-right: 0vw;
+  margin-top: 1vw;
+  padding-left: 3vh;
+  padding-top: 10vw;
+  margin-right: 5vh;
+  }
 }
 @media only screen and (min-width: 768px) {
   .my_font {
@@ -287,7 +316,7 @@ nav {
     font-size: 0.7rem;
   }
   .h_font {
-    font-size: 1rem;
+    font-size: 1rem!important;
   }
   .h1_font {
     font-size: 2.2rem;
@@ -321,6 +350,44 @@ nav {
   .li_font {
     font-size: 1rem!important;
   }
+  .main_font {
+    font-size: 2.5rem!important;
+  }
+  .circle {
+  text-align: center;
+  height: 20vw;
+  width: 20vw;
+  border: 10vw;
+  
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .big_circle {
+  width: 43vh;
+  height: 43vh;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  margin-left: -8vw;
+  padding-top: 10vw;
+  min-width: 43vw;
+  min-height: 43vw;
+  }
+  .big_circle2 {
+  width: 43vh;
+  height: 43vh;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  margin-left: 9vw;
+  margin-right: 0vw;
+  margin-top: 1vw;
+  padding-top: 10vw;
+  min-width: 43vw;
+  min-height: 43vw;
+  }
 }
 @media only screen and (min-width: 992px) {
   .my_font {
@@ -333,7 +400,7 @@ nav {
     font-size: 1rem;
   }
   .h_font {
-    font-size: 1.3rem;
+    font-size: 1.3rem!important;
   }
   .subj_font {
     font-size: 1rem;
@@ -358,7 +425,40 @@ nav {
   .li_font {
     font-size: 1.4rem!important;
   }
-
+  .main_font {
+    font-size: 3rem!important;
+  }
+  .circle {
+  text-align: center;
+  height: 20vw;
+  width: 20vw;
+  border: 10vw;
+  
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .big_circle {
+  width: 43vw;
+  height: 43vw;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  margin-left: -8vw;
+  padding-top: 10vw;
+  }
+  .big_circle2 {
+  width: 43vw;
+  height: 43vw;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  margin-left: 9vw;
+  margin-right: 0vw;
+  margin-top: 1vw;
+  padding-top: 10vw;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .my_font {
@@ -368,7 +468,7 @@ nav {
     font-size: 1rem;
   }
   .h_font {
-    font-size: 1.3rem;
+    font-size: 1.3rem!important;
   }
   .subj_font {
     font-size: 1rem;
@@ -386,6 +486,40 @@ nav {
   }
   .li_font {
     font-size: 1.8rem!important;
+  }
+  .main_font {
+    font-size: 4rem!important;
+  }
+  .circle {
+  text-align: center;
+  height: 20vw;
+  width: 20vw;
+  border: 10vw;
+  
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .big_circle {
+  width: 43vw;
+  height: 43vw;
+  background: #B4BEC5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 25vw;
+  margin-left: -8vw;
+  padding-top: 10vw;
+  }
+  .big_circle2 {
+    width: 43vw;
+    height: 43vw;
+    background: #B4BEC5;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 25vw;
+    margin-left: 9vw;
+    margin-right: 0vw;
+    margin-top: 1vw;
+    padding-top: 10vw;
   }
 }
 /*.my_font {
